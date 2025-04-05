@@ -27,8 +27,9 @@ Questo repository contiene il **codice sorgente** di un videogioco RPG scritto i
 
 Questo README descrive esclusivamente la **struttura e organizzazione del codice**.  
 Le istruzioni per la compilazione, le dipendenze o l'esecuzione non sono incluse in questo file.
+Il codice è stato opportunamente modificato per la personalizzazione del progetto rispetto il codice
+sorgente dell'autore.
 
-## BSD 2-Clause License
 
 Copyright (c) 2024, Alessandro Bria
 
