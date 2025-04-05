@@ -30,6 +30,7 @@ Le istruzioni per la compilazione, le dipendenze o l'esecuzione non sono incluse
 Il codice è stato opportunamente modificato per la personalizzazione del progetto rispetto il codice
 sorgente dell'autore.
 
+BSD 2-Clause License
 
 Copyright (c) 2024, Alessandro Bria
 
