@@ -1,56 +1,31 @@
-# Dragon Quest I- RPG in C++ con SDL2
+Dragon Quest I - C++ RPG with SDL2
 
-Questo repository contiene il **codice sorgente** di un videogioco RPG scritto in **C++**, ispirato ai classici giochi a turni in stile *Dragon Quest*. Il progetto utilizza la libreria **SDL2** per la gestione della grafica e l'input, e segue un'architettura **object-oriented (OOP)** per favorire modularità e manutenibilità.
+This repository contains the source code for an RPG video game written in C++, inspired by classic turn-based games like Dragon Quest. The project utilizes the SDL2 library for graphics and input management and follows an object-oriented (OOP) architecture to promote modularity and maintainability.
+Code Structure
 
----
+    main.cpp – Application entry point
+    Game.* – Core game logic (initialization, game loop, state management)
+    Player.* – Player character class
+    Map.* – Map and environment management system
+    NPC.* – Non-player character management and interactions
+    BattleSystem.* – Turn-based combat system
 
-## Struttura del codice
+Technologies Used
 
-- `main.cpp` – Punto di ingresso dell'applicazione
-- `Game.*` – Logica principale del gioco (inizializzazione, ciclo di gioco, gestione stati)
-- `Player.*` – Classe che rappresenta il giocatore
-- `Map.*` – Sistema di gestione delle mappe e ambienti
-- `NPC.*` – Gestione dei personaggi non giocanti e interazioni
-- `BattleSystem.*` – Sistema di combattimento a turni
+    Language: C++ (C++17 standard or higher)
+    Graphics Library: SDL2
+    Paradigm: Object-Oriented Programming (OOP)
 
----
+Notes
 
-## Tecnologie utilizzate
-
-- **Linguaggio:** C++ (standard C++17 o superiore)  
-- **Libreria grafica:** SDL2  
-- **Paradigma:** Programmazione Orientata agli Oggetti (OOP)
-
----
-
-## Note
-
-Questo README descrive esclusivamente la **struttura e organizzazione del codice**.  
-Le istruzioni per la compilazione, le dipendenze o l'esecuzione non sono incluse in questo file.
-Il codice è stato opportunamente modificato per la personalizzazione del progetto rispetto il codice
-sorgente dell'autore.
-
+This README exclusively describes the code structure and organization. Compilation instructions, dependencies, or execution details are not included in this file. The code has been appropriately modified and customized from the original author's source code.
 BSD 2-Clause License
 
 Copyright (c) 2024, Alessandro Bria
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
